@@ -1,0 +1,165 @@
+body{
+    background-color:	#eae8e5 ;
+    
+}
+nav{
+    height: 12vh;
+    width: 100vw;
+    background-color: white;
+    margin-top: 3px;
+}
+
+.one{
+    width: 55vw;
+    display: flex;
+}
+.two{
+    width: 45vw;
+    display: flex;
+}
+.ai{
+    height: 8vh;
+    width: 4vw;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    
+}
+.inp{
+    width: 40vw;
+    height: 6vh;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    border-radius: 4px;
+    background-color: rgb(230, 242, 248);
+    font-size: 1rem;
+    padding-left: 3vw;
+    font-family: Arial,sans-serif;
+    border: none;
+}
+.logo{
+    padding-top: 0.5vh;
+    margin-left: 1vw;
+    width: 7vw;
+    height:10vh;
+}
+.listing{
+    display: flex;
+    font-size: 1rem;
+    color: black;
+    margin-top: 3px;
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.search{
+    position: absolute;
+    left: 12vw;
+    top: 4.2vh;
+    padding-right: 3vw;
+    height: 4.2vh;
+    width: 2.6vw;
+}
+.t1{
+    font-family: Arial,sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 5vw;
+    padding-top: 4vh;
+   
+}
+.cont{
+    width: 96vw;
+    height: 27vh;
+    background-color: white;
+    margin: 2vh auto;
+    display: flex;
+}
+.cont ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    
+}
+.mainp{
+    text-align: center;
+    font-size: 1rem;
+}
+.box1{
+    height:30vh ;
+    width: 14vw;
+    /* border: 2px solid red; */
+}
+.contbox{
+    height: 60vh;
+    width: 96vw;
+    background-color: white;
+    margin: 2vh auto;
+    display: flex;
+    flex-direction: column;
+}
+.abc{
+    height: 15vh;
+    margin-top: 6vh;
+
+}
+.abcd{
+    height: 45vh;
+    display: flex;
+}
+.lower{
+    height: 40vh;
+    width: 96vw;
+    background-color: white;
+    margin: 2vh auto;
+    display: flex;
+}
+.img{
+    height: 13vh;
+    width: 10vw;
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+ 
+.img1{
+    height: 22vh;
+    width: 13vw;
+    margin-top: 4vh;
+    margin-left: 2.5vw;
+}
+.box2{
+    width: 28vw;
+    height: 42vh;
+    border: solid 1px rgb(206, 200, 200);
+    margin: 2vh 1vw;
+}
+.mach{
+    padding-left: 1vw;
+}
+.p2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 1.1rem;
+    justify-content: center;
+
+}
+.p1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.parag{
+    font-size: 1.5rem;
+    padding-left: 3vw;
+    font-weight: bolder;
+
+}
+.aba{
+    text-decoration: none;
+   /* color: green; */
+   
+   font-weight: 900;
+   font-size: 1.3rem;
+
+    color: #0C73EB;
+}

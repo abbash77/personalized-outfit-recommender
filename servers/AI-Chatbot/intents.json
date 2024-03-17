@@ -1,0 +1,470 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [ "Hi", "How are you", "Is anyone there?", "Hello", "Good day" ],
+            "responses": [ "Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?" ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [ "Bye", "See you later", "Goodbye" ],
+            "responses": [ "See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon." ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [ "Thanks", "Thank you", "That's helpful" ],
+            "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [ "What hours are you open?", "What are your hours?", "When are you open?", "When is the time to contact ?", "At what time do you provide services ?" ],
+            "responses": [ "We're open every day from 9AM to 9PM", "Our working hours are 9AM to 9PM every day" ]
+        },
+        {
+            "tag": "occasions",
+            "patterns": ["I'm attending a wedding", "Looking for a casual weekend outfit", "Need an outfit for a job interview"],
+            "responses": ["Certainly! Let's find the perfect outfit for your occasion.", "Got it, I'll suggest outfits that match the vibe of your event."]
+        },
+        {
+            "tag": "color",
+            "patterns": ["I'm a fan of earthy tones", "I like vibrant and bold colors", "Neutral colors are more my style"],
+            "responses": ["Color preference is important! I'll consider your favorite colors for outfit suggestions.", "Noted, I'll find outfits in the colors that resonate with you."]
+        },
+        {
+            "tag": "size",
+            "patterns": ["I'm a size medium", "I usually wear small", "I prefer larger sizes for comfort"],
+            "responses": ["Noted, I'll find outfits that match your size preference.", "Sure thing, I'll search for outfits in your specified size."]
+        },
+        {
+            "tag": "sleeve_length",
+            "patterns": ["I like short sleeves", "I prefer long sleeves for warmth", "Three-quarter sleeves are my style"],
+            "responses": ["I'll consider your preferred sleeve length for your outfit.", "No problem, I'll find outfits with the sleeve length you like."]
+        },
+        {
+            "tag": "height",
+            "patterns": ["I'm on the taller side", "I'm of average height", "I'm petite"],
+            "responses": ["Height can influence outfit choices! I'll suggest looks that enhance your stature.", "Got it, I'll find outfits that flatter your height."]
+        },
+        {
+            "tag": "top",
+            "patterns": ["I like wearing trendy tops", "Classic tops are my go-to", "I prefer casual and comfy tops"],
+            "responses": ["Tops are essential! I'll help you choose the perfect top for your outfit.", "Sure thing, let's explore some top options for your outfit."]
+        },
+        {
+            "tag": "bottom",
+            "patterns": ["I often wear jeans as bottoms", "Skirts are my favorite", "I prefer dress pants for a polished look"],
+            "responses": ["Bottoms complete the look! I'll find suitable bottom options for your outfit.", "Got it, I'll suggest bottom pieces that go well with your outfit."]
+        },
+        {
+            "tag": "upper",
+            "patterns": ["I like to layer my outfits with cardigans", "Jackets add a stylish touch to my look", "I often wear vests for a unique style"],
+            "responses": ["I'll consider upper clothing options that match your style.", "No problem, I'll suggest upper wear that aligns with your preferences."]
+        },
+        {
+            "tag": "jackets",
+            "patterns": ["I need a warm jacket for winter", "I prefer light jackets for a casual look", "Leather jackets are my style"],
+            "responses": ["Jackets can add a stylish layer! I'll find jacket options that enhance your outfit.", "Sure, I'll suggest jackets that complement your chosen outfit."]
+        },
+        {
+            "tag": "trousers",
+            "patterns": ["I usually wear tailored trousers", "Casual pants are more my style", "I prefer wide-leg trousers"],
+            "responses": ["Trousers are versatile! I'll help you find trousers that suit your outfit preferences.", "Noted, I'll find trousers that match your style."]
+        },
+        {
+            "tag": "jeans",
+            "patterns": ["Jeans are my go-to casual option", "I like distressed jeans for a trendy look", "I prefer dark-wash jeans"],
+            "responses": ["Jeans are a classic choice! I'll suggest jeans that fit your outfit criteria.", "Sure, let's explore some stylish jeans options for your outfit."]
+        },
+        {
+            "tag": "shorts",
+            "patterns": ["Shorts are perfect for warm weather", "I like high-waisted shorts", "Denim shorts are my summer staple"],
+            "responses": ["Shorts can be a great choice! I'll find stylish shorts that align with your preferences.", "Got it, I'll suggest some trendy shorts for your outfit."]
+        },
+        {
+            "tag": "undergarments",
+            "patterns": ["Comfortable undergarments are a must", "I prefer seamless undergarments", "I like wearing lacey undergarments for a touch of elegance"],
+            "responses": ["Undergarments are the foundation! I'll make sure your outfit includes suitable undergarments.", "Sure thing, let's ensure your outfit is complete with the right undergarments."]
+        },
+        {
+            "tag": "blazers",
+            "patterns": ["Blazers add a professional touch to my look", "I like oversized blazers for a trendy style", "I often wear structured blazers"],
+            "responses": ["Blazers can add a touch of elegance! I'll find blazers that enhance your outfit.", "I see, I'll suggest blazers that match your outfit preferences."]
+        },
+        {
+            "tag": "style_type",
+            "patterns": ["I prefer a minimalist style", "Bohemian looks are my favorite", "I like mixing classic and modern styles"],
+            "responses": ["Understanding your style helps! I'll suggest outfits that align with your preferred fashion style.", "Got it, I'll find outfits that match your chosen style."]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["It's chilly, I need something warm", "Hot weather calls for lightweight outfits", "Rainy day calls for waterproof options"],
+            "responses": ["Weather matters for your outfit choice! I'll consider the climate while suggesting outfits.", "Sure, I'll suggest outfits that are suitable for the current weather conditions."]
+        },
+        {
+            "tag": "celebrity_type",
+            "patterns": ["I love Jennifer Aniston's style", "Zendaya's fashion sense inspires me", "I admire Chris Hemsworth's wardrobe"],
+            "responses": ["Drawing inspiration from celebrity styles is great! I'll incorporate elements of your chosen celebrity's style into your outfit.", "Got it, I'll take cues from the celebrity's style you mentioned and suggest an outfit."]
+        },
+        {
+            "tag": "brand",
+            "patterns": ["I'm a fan of luxury brands", "I prefer sustainable and ethical brands", "Affordable brands are my go-to"],
+            "responses": ["Brands matter to you, so they matter to me! I'll suggest outfits from your preferred brands.", "Sure, I'll find outfits from the brands you like."]
+        },
+        {
+            "tag": "tradition",
+            "patterns": ["I'd like a traditional outfit for cultural events", "I prefer fusion looks that combine tradition and modernity", "I love wearing traditional attire for special occasions"],
+            "responses": ["Tradition is important! I'll consider traditional dress options based on your preferences.", "Noted, I'll look for traditional outfits that align with your cultural preferences."]
+        },
+        {
+            "tag": "pattern",
+            "patterns": ["I like floral patterns", "I prefer stripes on my outfit", "Patterns like polka dots would be great"],
+            "responses": ["Patterns can add a unique touch to your outfit! I'll find options that match your pattern preferences.", "Noted, I'll consider outfits with the patterns you mentioned."]
+        },
+        {
+            "tag": "fit",
+            "patterns": ["I like loose-fitting clothes", "I prefer a snug fit for my outfits", "I'm comfortable with relaxed fits"],
+            "responses": ["Fit is key to a comfortable outfit! I'll suggest clothing with the fit you prefer.", "Sure thing, I'll find outfits that match your desired fit."]
+        },
+        {
+            "tag": "city",
+            "patterns": ["I'm from New York City", "Living in Los Angeles", "Based in London"],
+            "responses": ["Got it! I'll suggest outfits that match the style of your city.", "Perfect, let's find outfits that align with the vibe of your city."]
+        },
+        {
+            "tag": "location",
+            "patterns": ["I'm in a tropical climate", "Currently residing in a colder region", "Living near the beach"],
+            "responses": ["Noted, I'll factor in your location's climate for outfit suggestions.", "Sure, I'll consider the weather in your location while suggesting outfits."]
+        },
+        {
+            "tag": "festivals",
+            "patterns": ["It's Eid next day", "Diwali is coming up", "Halloween party is around the corner"],
+            "responses": ["Perfect timing! Let me suggest festive outfits for the occasion.", "Great! I'll find outfits that match the spirit of the upcoming festival."]
+        },
+        {
+            "tag": "occasion",
+            "patterns": ["I'm attending a wedding", "Looking for a casual weekend outfit", "Need an outfit for a job interview"],
+            "responses": ["Certainly! Let's find the perfect outfit for your occasion.", "Got it, I'll suggest outfits that match the vibe of your event."]
+        },
+        {
+            "tag": "color_preference",
+            "patterns": ["I'm a fan of earthy tones", "I like vibrant and bold colors", "Neutral colors are more my style"],
+            "responses": ["Color preference is important! I'll consider your favorite colors for outfit suggestions.", "Noted, I'll find outfits in the colors that resonate with you."]
+        },
+        {
+            "tag": "season",
+            "patterns": ["It's springtime and I need a fresh look", "Summer calls for light and breezy outfits", "I want cozy outfits for fall"],
+            "responses": ["Seasonal outfits are great! I'll suggest looks that are perfect for the current season.", "Got it, I'll find outfits that align with the weather and vibe of the season."]
+        },
+        {
+            "tag": "body_type",
+            "patterns": ["I have an hourglass figure", "I'm pear-shaped and want to highlight my waist", "I want outfits that flatter my athletic build"],
+            "responses": ["Body type matters for outfit selection! I'll suggest styles that enhance your body's natural proportions.", "Sure, I'll find outfits that are tailored to your body type."]
+        },
+        {
+            "tag": "accessories",
+            "patterns": ["I like to accessorize with statement necklaces", "Hats are a key part of my style", "I prefer minimalistic accessories"],
+            "responses": ["Accessories complete the look! I'll find accessories that match your outfit style.", "Of course, let's add some stylish accessories to elevate your outfit."]
+        },
+        {
+            "tag": "shoes",
+            "patterns": ["I love wearing heels for an elegant touch", "Sneakers are my go-to for a casual look", "I want comfortable and stylish shoes"],
+            "responses": ["Shoes make a statement! I'll find footwear options that complement your outfit.", "Noted, I'll suggest shoes that align with your outfit and comfort preferences."]
+        },
+        {
+            "tag": "budget",
+            "patterns": ["I'm looking for affordable outfit options", "I'm open to investing in high-quality pieces", "I prefer budget-friendly choices"],
+            "responses": ["Budget is important! I'll suggest outfits that match your price range.", "Sure thing, I'll find outfits that fit your budget preferences."]
+        },
+        {
+            "tag": "body_consciousness",
+            "patterns": ["I want outfits that make me feel confident", "I prefer outfits that provide more coverage", "I like flaunting my curves"],
+            "responses": ["Feeling confident is key! I'll find outfits that align with your comfort and body consciousness.", "Got it, I'll suggest outfits that help you feel your best."]
+        },
+        {
+            "tag": "time_of_day",
+            "patterns": ["I need an outfit for a morning event", "Going out in the evening and need a stylish look", "I want comfortable loungewear for nighttime"],
+            "responses": ["Time of day matters for outfit choices! I'll suggest looks that are appropriate for the time you're wearing them.", "Sure, I'll consider the time of day while suggesting outfits."]
+        },
+        {
+            "tag": "layering",
+            "patterns": ["I like layering with scarves", "Cardigans are a staple in my outfits", "I want to layer with a stylish jacket"],
+            "responses": ["Layering adds depth to outfits! I'll find pieces that are perfect for creating stylish layers.", "Of course, let's explore layering options to create a well-coordinated outfit."]
+        },
+        {
+            "tag": "confidence_boost",
+            "patterns": ["I want an outfit that boosts my confidence", "Looking for a standout outfit for a special event", "I need a pick-me-up outfit"],
+            "responses": ["Feeling confident is important! I'll find an outfit that makes you shine.", "Absolutely, let's find an outfit that gives you that extra confidence boost."]
+        },
+        {
+            "tag": "versatility",
+            "patterns": ["I prefer outfits that can transition from day to night", "I want versatile pieces I can mix and match", "Looking for a multi-functional outfit"],
+            "responses": ["Versatile outfits are great for various occasions! I'll find pieces that offer flexibility in styling.", "Got it, I'll suggest outfits that can easily adapt to different scenarios."]
+        },
+        {
+            "tag": "personal_touch",
+            "patterns": ["I want to incorporate my personal style into the outfit", "Looking for a unique outfit that reflects my personality", "I have a specific accessory I want to include"],
+            "responses": ["Adding a personal touch is wonderful! I'll help you create an outfit that's uniquely yours.", "Sure thing, let's design an outfit that captures your individual style."]
+        },
+        {
+            "tag": "vintage",
+            "patterns": ["I'm into vintage fashion", "I want an outfit with a retro vibe", "I love collecting vintage pieces"],
+            "responses": ["Vintage fashion has character! I'll find outfits that bring out the retro charm.", "Noted, I'll suggest vintage-inspired outfits that align with your taste."]
+        },
+        {
+            "tag": "latest_trends",
+            "patterns": ["I like to stay updated with the latest fashion trends", "Looking for outfits that are on-trend", "Tell me about the current fashion must-haves"],
+            "responses": ["Following trends is fun! I'll suggest outfits that incorporate the latest fashion elements.", "Absolutely, let's explore some trendy outfit options together."]
+        },
+        {
+            "tag": "casual_look",
+            "patterns": ["I prefer a relaxed and casual outfit", "Looking for a laid-back weekend look", "Casual chic is more my style"],
+            "responses": ["Casual outfits can be stylish too! I'll find relaxed yet fashionable options.", "Got it, I'll suggest comfortable and trendy casual outfits."]
+        },
+        {
+            "tag": "formal_attire",
+            "patterns": ["I need a formal outfit for a corporate event", "Looking for a classic suit for a formal occasion", "Formal attire is required for the event"],
+            "responses": ["Formal events call for elegance! I'll find a suitable formal outfit that meets the occasion's dress code.", "Sure thing, let's find a sophisticated formal outfit that suits the event."]
+        },
+        {
+            "tag": "confidence_boost",
+            "patterns": ["I want an outfit that boosts my confidence", "Looking for a standout outfit for a special event", "I need a pick-me-up outfit"],
+            "responses": ["Feeling confident is important! I'll find an outfit that makes you shine.", "Absolutely, let's find an outfit that gives you that extra confidence boost."]
+        },
+        {
+            "tag": "versatility",
+            "patterns": ["I prefer outfits that can transition from day to night", "I want versatile pieces I can mix and match", "Looking for a multi-functional outfit"],
+            "responses": ["Versatile outfits are great for various occasions! I'll find pieces that offer flexibility in styling.", "Got it, I'll suggest outfits that can easily adapt to different scenarios."]
+        },
+        {
+            "tag": "personal_touch",
+            "patterns": ["I want to incorporate my personal style into the outfit", "Looking for a unique outfit that reflects my personality", "I have a specific accessory I want to include"],
+            "responses": ["Adding a personal touch is wonderful! I'll help you create an outfit that's uniquely yours.", "Sure thing, let's design an outfit that captures your individual style."]
+        },
+        {
+            "tag": "vintage",
+            "patterns": ["I'm into vintage fashion", "I want an outfit with a retro vibe", "I love collecting vintage pieces"],
+            "responses": ["Vintage fashion has character! I'll find outfits that bring out the retro charm.", "Noted, I'll suggest vintage-inspired outfits that align with your taste."]
+        },
+        {
+            "tag": "latest_trends",
+            "patterns": ["I like to stay updated with the latest fashion trends", "Looking for outfits that are on-trend", "Tell me about the current fashion must-haves"],
+            "responses": ["Following trends is fun! I'll suggest outfits that incorporate the latest fashion elements.", "Absolutely, let's explore some trendy outfit options together."]
+        },
+        {
+            "tag": "casual_look",
+            "patterns": ["I prefer a relaxed and casual outfit", "Looking for a laid-back weekend look", "Casual chic is more my style"],
+            "responses": ["Casual outfits can be stylish too! I'll find relaxed yet fashionable options.", "Got it, I'll suggest comfortable and trendy casual outfits."]
+        },
+        {
+            "tag": "formal_attire",
+            "patterns": ["I need a formal outfit for a corporate event", "Looking for a classic suit for a formal occasion", "Formal attire is required for the event"],
+            "responses": ["Formal events call for elegance! I'll find a suitable formal outfit that meets the occasion's dress code.", "Sure thing, let's find a sophisticated formal outfit that suits the event."]
+        },
+        {
+            "tag": "creative_look",
+            "patterns": ["I want to create a unique and artistic outfit", "Looking for an outfit that stands out creatively", "I like experimenting with bold fashion choices"],
+            "responses": ["Creativity in fashion is wonderful! I'll help you put together an artistic and distinctive outfit.", "Of course, let's explore creative and avant-garde outfit options."]
+        },
+        {
+            "tag": "workplace_style",
+            "patterns": ["I need outfits that are suitable for a professional workplace", "Looking for business-casual attire for the office", "Want to enhance my work wardrobe"],
+            "responses": ["Workplace attire is important! I'll suggest outfits that convey professionalism while keeping your style intact.", "Noted, I'll find work-appropriate outfits that align with your office environment."]
+        },
+        {
+            "tag": "active_wear",
+            "patterns": ["I need athletic wear for my workout sessions", "Looking for comfortable activewear for yoga", "I prefer sporty outfits for my active lifestyle"],
+            "responses": ["Staying active is great! I'll find comfortable and functional activewear for your workouts.", "Sure, I'll suggest activewear that matches your fitness routine and style preferences."]
+        },
+        {
+            "tag": "travel_essentials",
+            "patterns": ["I need travel-friendly outfits for my vacation", "Looking for versatile outfits for my travel itinerary", "I want outfits that pack well and are comfortable"],
+            "responses": ["Travel outfits need to be functional and stylish! I'll suggest travel-friendly outfits that meet your requirements.", "Got it, I'll find outfits that are perfect for your travel adventures."]
+        },
+        {
+            "tag": "relaxation_wear",
+            "patterns": ["I want comfy and cozy loungewear for my relaxation time", "Looking for pajama sets for a comfortable sleep", "I prefer soft fabrics and loose-fitting clothes for relaxation"],
+            "responses": ["Comfort is key during relaxation! I'll suggest loungewear that's perfect for unwinding.", "Of course, I'll find relaxation wear that provides ultimate comfort."]
+        },
+        {
+            "tag": "shoes",
+            "patterns": ["I love wearing heels for an elegant touch", "Sneakers are my go-to for a casual look", "I want comfortable and stylish shoes"],
+            "responses": ["Shoes make a statement! I'll find footwear options that complement your outfit.", "Noted, I'll suggest shoes that align with your outfit and comfort preferences."]
+        },
+        {
+            "tag": "shoes",
+            "patterns": ["I love wearing heels for an elegant touch", "Sneakers are my go-to for a casual look", "I want comfortable and stylish shoes"],
+            "responses": ["Shoes make a statement! I'll find footwear options that complement your outfit.", "Noted, I'll suggest shoes that align with your outfit and comfort preferences."]
+        },
+        {
+            "tag": "season",
+            "patterns": ["It's springtime and I need a fresh look", "Summer calls for light and breezy outfits", "I want cozy outfits for fall"],
+            "responses": ["Seasonal outfits are great! I'll suggest looks that are perfect for the current season.", "Got it, I'll find outfits that align with the weather and vibe of the season."]
+        },
+        {
+            "tag": "body_type",
+            "patterns": ["I have an hourglass figure", "I'm pear-shaped and want to highlight my waist", "I want outfits that flatter my athletic build"],
+            "responses": ["Body type matters for outfit selection! I'll suggest styles that enhance your body's natural proportions.", "Sure, I'll find outfits that are tailored to your body type."]
+        },
+        {
+            "tag": "color_preference",
+            "patterns": ["I'm a fan of earthy tones", "I like vibrant and bold colors", "Neutral colors are more my style"],
+            "responses": ["Color preference is important! I'll consider your favorite colors for outfit suggestions.", "Noted, I'll find outfits in the colors that resonate with you."]
+        },
+        {
+            "tag": "season",
+            "patterns": ["It's springtime and I need a fresh look", "Summer calls for light and breezy outfits", "I want cozy outfits for fall"],
+            "responses": ["Seasonal outfits are great! I'll suggest looks that are perfect for the current season.", "Got it, I'll find outfits that align with the weather and vibe of the season."]
+        }, {
+            "tag": "don't_like",
+            "patterns": ["I don't like this", "I'm not a fan of this", "This is not my style"],
+            "responses": ["That's completely okay! Let's find something you'll love.", "No problem, let's explore other options."]
+        },
+        {
+            "tag": "won't_wear",
+            "patterns": ["I won't wear that", "This is something I won't put on"],
+            "responses": ["Understood, let's find an alternative that suits your taste.", "Sure thing, we'll find something more to your liking."]
+        },
+        {
+            "tag": "hate_outfit",
+            "patterns": ["I hate this outfit", "This outfit is awful", "I really dislike this"],
+            "responses": ["I'm sorry to hear that. Let's try to find an outfit you'll feel great in.", "No worries, we'll find something that aligns better with your preferences."]
+        },
+        {
+            "tag": "disagree_style",
+            "patterns": ["I disagree with this style", "This style doesn't work for me"],
+            "responses": ["That's okay, everyone has their own preferences. Let's find a style that suits you better.", "Noted, we'll look for a style that you'll feel more comfortable with."]
+        },
+        {
+            "tag": "not_comfortable",
+            "patterns": ["I'm not comfortable with this", "This doesn't make me comfortable"],
+            "responses": ["Your comfort is important. Let's find an outfit that you'll feel at ease in.", "No problem, we'll search for an option that aligns better with your comfort level."]
+        },
+        {
+            "tag": "won't_work",
+            "patterns": ["This won't work for me", "I don't see myself in this"],
+            "responses": ["That's understandable. Let's find something that suits your vision better.", "No worries, we'll explore other options that might resonate with you."]
+        },
+        {
+            "tag": "dislike_color",
+            "patterns": ["I dislike this color", "This color is not my preference"],
+            "responses": ["Colors matter! Let's find options that match your color preferences.", "Of course, we'll search for outfits in colors that you like."]
+        },
+        {
+            "tag": "not_impressed",
+            "patterns": ["I'm not impressed by this", "This doesn't impress me"],
+            "responses": ["No problem, let's keep searching for something that makes a better impression.", "Your satisfaction is important. Let's find an outfit that meets your expectations."]
+        },
+        {
+            "tag": "won't_fit",
+            "patterns": ["This won't fit me well", "I don't think this will fit"],
+            "responses": ["Fit matters for a confident look! Let's find something that fits you perfectly.", "We'll make sure to find an outfit with the right fit for you."]
+        },
+        {
+            "tag": "hate_accessory",
+            "patterns": ["I hate this accessory", "This accessory is not for me"],
+            "responses": ["Accessories can make a difference. Let's explore other accessory options that you might like.", "No worries, we'll find accessories that align better with your style."]
+        },
+        {
+            "tag": "not_my_choice",
+            "patterns": ["This is not my choice", "I wouldn't choose this", "This isn't what I had in mind"],
+            "responses": ["That's alright! Let's find something that aligns better with your preferences.", "No problem, we'll explore options that match your style."]
+        },
+        {
+            "tag": "disagree_pattern",
+            "patterns": ["I disagree with this pattern", "This pattern isn't for me"],
+            "responses": ["Patterns can be subjective. Let's find patterns that you'll feel more comfortable with.", "Of course, we'll search for outfits with patterns that resonate better with your taste."]
+        },
+        {
+            "tag": "hate_shoes",
+            "patterns": ["I hate these shoes", "These shoes are a no for me"],
+            "responses": ["Shoes play a big role in the outfit. Let's find footwear that suits your liking.", "No worries, we'll look for shoes that match your style better."]
+        },
+        {
+            "tag": "won't_feel_good",
+            "patterns": ["I won't feel good in this", "This won't make me feel confident"],
+            "responses": ["Feeling confident is key! Let's find something that boosts your confidence.", "Absolutely, we'll search for an outfit that makes you feel great."]
+        },
+        {
+            "tag": "dislike_fit",
+            "patterns": ["I dislike the fit of this", "The fit is not appealing to me"],
+            "responses": ["Fit is important for comfort. Let's find something with a fit that suits your preferences.", "Understood, we'll explore outfits with a fit that aligns better with your style."]
+        },
+        {
+            "tag": "hate_vibe",
+            "patterns": ["I hate the vibe of this", "This vibe is not what I'm looking for"],
+            "responses": ["Vibe matters! Let's find outfits with a vibe that resonates better with you.", "No worries, we'll explore outfits that match the vibe you're seeking."]
+        },
+        {
+            "tag": "not_enough",
+            "patterns": ["This is not enough for my event", "I need something more for the occasion"],
+            "responses": ["Got it, we'll find something that's more suitable for your event and requirements.", "Sure thing, let's search for an outfit that meets the expectations of your occasion."]
+        },
+        {
+            "tag": "won't_blend",
+            "patterns": ["This won't blend well with my style", "I don't think this will match my look"],
+            "responses": ["Matching your style is important! Let's find something that seamlessly blends with your preferred look.", "Of course, we'll explore outfits that complement your existing style."]
+        },
+        {
+            "tag": "dislike_detail",
+            "patterns": ["I dislike this detail", "This detail is not appealing to me"],
+            "responses": ["Details can make a difference. Let's find options with details that you'll appreciate.", "No problem, we'll explore outfits with different details that suit your taste."]
+        },
+        {
+            "tag": "hate_material",
+            "patterns": ["I hate this material", "This material is not for me"],
+            "responses": ["Materials play a role in comfort and style. Let's find outfits with materials that you'll like.", "Understood, we'll search for outfits with materials that align better with your preferences."]
+        },
+        {
+            "tag": "won't_wear_color",
+            "patterns": ["I won't wear this color", "This color isn't for me"],
+            "responses": ["Color preference matters! Let's find outfits in colors that you feel more comfortable wearing.", "No problem, we'll explore outfits in different colors that align with your taste."]
+        },
+        {
+            "tag": "dislike_accessories",
+            "patterns": ["I dislike these accessories", "These accessories don't appeal to me"],
+            "responses": ["Accessories can make or break an outfit. Let's find accessories that you'll like.", "Absolutely, we'll explore accessory options that match your style better."]
+        },
+        {
+            "tag": "hate_fabric",
+            "patterns": ["I hate this fabric", "This fabric is not my preference"],
+            "responses": ["Fabric choice affects comfort and appearance. Let's find outfits with fabrics that you prefer.", "Understood, we'll search for outfits with fabrics that better suit your liking."]
+        },
+        {
+            "tag": "won't_pair",
+            "patterns": ["I won't pair these items", "I don't see these items working together"],
+            "responses": ["Coordination matters in an outfit. Let's find pieces that work well together and align with your style.", "Of course, we'll look for items that can be paired seamlessly to create a stylish look."]
+        },
+        {
+            "tag": "disagree_trend",
+            "patterns": ["I disagree with this trend", "This trend is not my cup of tea"],
+            "responses": ["Trends can be subjective. Let's explore other trends that resonate better with your fashion sense.", "No worries, we'll search for trends that better match your personal style."]
+        },
+        {
+            "tag": "hate_occasion",
+            "patterns": ["I hate this for the occasion", "This isn't suitable for the event"],
+            "responses": ["Finding the right outfit for the occasion is important. Let's search for something that's more fitting.", "Absolutely, we'll explore outfits that are better suited for the specific event."]
+        },
+        {
+            "tag": "not_comfortable",
+            "patterns": ["I'm not comfortable in this", "This won't make me feel at ease"],
+            "responses": ["Feeling comfortable is key! Let's find outfits that make you feel at ease while looking stylish.", "Of course, we'll look for options that prioritize your comfort."]
+        },
+        {
+            "tag": "dislike_combination",
+            "patterns": ["I dislike this combination", "This combination doesn't work for me"],
+            "responses": ["Combining elements can be tricky. Let's find outfit combinations that you find more appealing.", "No problem, we'll explore different combinations that match your taste."]
+        },
+        {
+            "tag": "hate_pattern",
+            "patterns": ["I hate this pattern", "This pattern doesn't appeal to me"],
+            "responses": ["Patterns can be a matter of personal preference. Let's explore patterns that you'll find more appealing.", "Understood, we'll search for outfits with patterns that better align with your taste."]
+        },
+        {
+            "tag": "won't_flatter",
+            "patterns": ["This won't flatter my body", "I don't think this will enhance my figure"],
+            "responses": ["Flattering your body shape is important. Let's find outfits that enhance your natural proportions.", "Of course, we'll look for outfits that are tailored to enhance your figure."]
+        }
+     
+    ]
+}

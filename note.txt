@@ -1,0 +1,2 @@
+we have deleted all the dataset to compress the file to 50 mb
+also we have to delete .ann and .pkl files

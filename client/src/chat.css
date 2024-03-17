@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.navi{
+    width: 100vw;
+    height: 12vh;
+    background-color: #0C73EB;
+    /* background-color: white; */
+    
+}
+.logo2{
+    height: 7vh;
+    width: 5vw;
+}
+
+.leftComp{
+    width: 20vw;
+    height: 88vh;
+    color: white;
+    border: solid 0.5px rgb(216, 212, 212);
+    
+}
+.rp1{
+    color: black;
+    font-size: 1.2rem;
+    padding-left: 1.6vw;
+    padding-top: 0.6vh;
+    
+}
+.rp2{
+    padding-left: 1.6vw;
+    color: black;
+    font-size: 1rem;
+    padding-top: 1.5vh;
+    font-weight: bolder;
+    padding-bottom: 4px;
+}
+.history1{
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    width: 20vw;
+    border: solid gray 1px;
+    /* margin-top: 2vh; */
+
+
+}
+.maincomp{
+    display: flex;
+    height: 88vh;
+    width: 100vw;
+    overflow: hidden;
+
+}
+.head{
+    text-align: center;
+    font-size: 1.2rem;
+    color: black;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+   
+}
+.inputr{
+    width: 45vw;
+    height: 7vh;
+    border-radius: 4px;
+    background-color: rgb(172, 225, 249);
+    font-size: 1rem;
+    border: none;
+    margin-left: 1vw;
+    padding-left: 2vw;
+    margin-right: 1.7vw;
+}
+.btn{
+    width: 7vw;
+    height: 6.2vh;
+    background-color: #0C73EB;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-left: 0.8vw;
+    border-radius: 7px;
+    cursor: pointer;
+   
+
+}
+.generate{
+    position: relative;
+    left: 68vw;
+    bottom: 6.6vh;
+    width: 7vw;
+    height: 6vh;
+    background-color: green;
+}
+.rightcomp{
+    height: 88vh;
+    width: 80vw;
+    background-color: white;
+    overflow-x: hidden;
+
+
+}
+.highest{
+    background-color: white;
+    height:73vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: scroll; */
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.lowest{
+    height: 15vh;
+     width: 80vw; 
+     
+     overflow-x: hidden; 
+     overflow-y: hidden;   
+}
+.mike{
+    height: 5.3vh;
+    width: 3vw;
+    position: relative;
+    left: 4.5vw;
+    top: 6.5vh;
+}
+.gal{
+    height: 6vh;
+    width: 2.5vw;
+    
+    position: relative;
+    left: 3vw;
+    top: 7vh;
+    cursor: pointer;
+}
+.chat1{
+    height: auto;
+    width: auto;
+    margin-left: 10vw;
+    /* margin-right: 4vw; */
+    /* float: right; */
+    background-color: rgb(229, 225, 225);
+    margin-top: 4vh;
+    border-radius: 6px;
+    padding: .8vw;
+    font-size: 1.3rem;
+}
+.chat2{
+    height: auto;
+    padding: .8vw;
+    width: auto;
+    float: left;
+    margin-right: 10vw;
+    margin-left: 3vw;
+    background-color:rgb(172, 225, 249);
+    margin-top: 4vh;
+    border-radius: 6px;
+    font-size: 1.3rem;
+}
+.chatbot{
+    height: 7vh;
+    width: 3vw;
+    position: absolute;
+    right: 0vw;
+    top: 20vh;
+    margin-left: 3px;
+}
+.chatbot2{
+    height: 7vh;
+    width: 3vw;
+    position: absolute;
+    right: 0vw;
+    top: 49vh;
+    margin-left: 3px;
+}
+.chatbot3{
+    height: 7vh;
+    width: 3vw;
+    position: absolute;
+    right: 0vw;
+    top: 72vh;
+    margin-left: 3px;
+}
+
+.inputimg{
+    display: none;
+}
+.forminput{
+    margin-left: 10vw;
+    
+}
+.listimg{
+    /* padding-left: 8vh; */
+    margin-right: 6vw;
+    margin-top: 1vh;
+}
+.imgbox{
+    margin-top: 4vh;
+    border: 1px solid black;
+    box-shadow: 3px 3px gray;
+    margin-left: 2vw;
+    width: 9vw;
+    height: 14vh;
+}
+.mess{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top:7.5vh;
+}
+.bah{
+    display:flex ;
+    float: right;
+}
+.ai{
+    height: 50px;
+    width: 35px;
+    margin-top: 2vh;
+    margin-right: 1vw;
+}
+.textreply{
+    text-align: center;
+    margin-top: 4vh;
+    /* font-weight: bold; */
+    font-size: 1.5rem;
+}
